@@ -1,5 +1,5 @@
 import React from 'react';
-import { MOCK_STATS } from '../constants';
+import { MOCK_STATS } from '../constants.ts';
 import { BarChart, Users, Droplet, Wallet } from 'lucide-react';
 
 export const AdminDashboard: React.FC = () => {

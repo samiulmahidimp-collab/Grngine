@@ -1,8 +1,8 @@
 import React from 'react';
-import { User } from '../types';
+import { User } from '../types.ts';
 import { LogOut, Menu } from 'lucide-react';
-import { Button } from './Button';
-import { Logo } from './Logo';
+import { Button } from './Button.tsx';
+import { Logo } from './Logo.tsx';
 
 interface NavbarProps {
   user: User | null;

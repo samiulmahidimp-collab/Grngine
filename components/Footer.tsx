@@ -1,7 +1,7 @@
 import React from 'react';
 import { Mail, Phone, MapPin } from 'lucide-react';
-import { CONTACT_INFO } from '../constants';
-import { Logo } from './Logo';
+import { CONTACT_INFO } from '../constants.ts';
+import { Logo } from './Logo.tsx';
 
 export const Footer: React.FC = () => {
   return (

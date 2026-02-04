@@ -1,13 +1,13 @@
 import React, { useState } from 'react';
-import { Navbar } from './components/Navbar';
-import { Footer } from './components/Footer';
-import { Landing } from './pages/Landing';
-import { BuyerDashboard } from './pages/BuyerDashboard';
-import { SellerDashboard } from './pages/SellerDashboard';
-import { AdminDashboard } from './pages/AdminDashboard';
-import { Contact } from './pages/Contact';
-import { AuthModal } from './components/AuthModal';
-import { User, UserRole } from './types';
+import { Navbar } from './components/Navbar.tsx';
+import { Footer } from './components/Footer.tsx';
+import { Landing } from './pages/Landing.tsx';
+import { BuyerDashboard } from './pages/BuyerDashboard.tsx';
+import { SellerDashboard } from './pages/SellerDashboard.tsx';
+import { AdminDashboard } from './pages/AdminDashboard.tsx';
+import { Contact } from './pages/Contact.tsx';
+import { AuthModal } from './components/AuthModal.tsx';
+import { User, UserRole } from './types.ts';
 
 // Simple Router implementation based on state
 type View = 'home' | 'contact' | 'dashboard';

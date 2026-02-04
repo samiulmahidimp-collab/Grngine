@@ -1,7 +1,7 @@
 import React from 'react';
-import { CONTACT_INFO } from '../constants';
+import { CONTACT_INFO } from '../constants.ts';
 import { Mail, Phone, MapPin, Send } from 'lucide-react';
-import { Button } from '../components/Button';
+import { Button } from '../components/Button.tsx';
 
 export const Contact: React.FC = () => {
   const handleSubmit = (e: React.FormEvent) => {

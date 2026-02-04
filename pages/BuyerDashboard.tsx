@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
-import { User, Order } from '../types';
-import { Button } from '../components/Button';
-import { DIESEL_PRICE_PER_LITER } from '../constants';
+import { User, Order } from '../types.ts';
+import { Button } from '../components/Button.tsx';
+import { DIESEL_PRICE_PER_LITER } from '../constants.ts';
 import { Droplet, History, CreditCard, AlertCircle } from 'lucide-react';
 
 interface BuyerDashboardProps {

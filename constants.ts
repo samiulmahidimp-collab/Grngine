@@ -1,4 +1,4 @@
-import { UserRole } from './types';
+import { UserRole } from './types.ts';
 
 export const DIESEL_PRICE_PER_LITER = 110; // BDT
 export const UCO_BUYBACK_PRICE = 45; // BDT (Price we pay restaurants)

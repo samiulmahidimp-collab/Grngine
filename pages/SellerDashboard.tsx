@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
-import { User, Order } from '../types';
-import { Button } from '../components/Button';
-import { UCO_BUYBACK_PRICE } from '../constants';
+import { User, Order } from '../types.ts';
+import { Button } from '../components/Button.tsx';
+import { UCO_BUYBACK_PRICE } from '../constants.ts';
 import { Truck, DollarSign, Calendar, MapPin } from 'lucide-react';
 
 interface SellerDashboardProps {

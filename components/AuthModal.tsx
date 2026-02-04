@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
-import { UserRole, User } from '../types';
-import { Button } from './Button';
+import { UserRole, User } from '../types.ts';
+import { Button } from './Button.tsx';
 import { X, CheckCircle } from 'lucide-react';
 
 interface AuthModalProps {

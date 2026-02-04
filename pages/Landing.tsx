@@ -1,7 +1,7 @@
 import React from 'react';
-import { Button } from '../components/Button';
+import { Button } from '../components/Button.tsx';
 import { ArrowRight, Droplet, Recycle, TrendingUp, Truck } from 'lucide-react';
-import { DIESEL_PRICE_PER_LITER } from '../constants';
+import { DIESEL_PRICE_PER_LITER } from '../constants.ts';
 
 interface LandingProps {
   onGetStarted: () => void;
